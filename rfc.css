@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Google Sans', sans-serif;
+    background: #005288;
+}
+.contenedor{
+    width: 70%;
+    height: 605px;
+    0px;
+    background: #008be7;
+    margin: 10px auto;
+}
+.contenedor h1, p{
+    text-align: center;
+}
+.contenedor p{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.contenedor input[type="text"]{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+}
+.contenedor button{
+    margin-left: 25%;
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #006db6;
+    border: 2px solid transparent;
+    text-align: center;
+    font-size: 20px;
+}
+.contenedor button:hover{
+    transition: .3s;
+    border-radius: 25px;
+    background: #005288;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Generador RFC</title>
+    <link rel="stylesheet" href="rfc.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Calcular tu RFC sin homoclave</h1>
+        <input type="text" id="nombre" placeholder="Nombre">
+        <input type="text" id="apellidoPaterno" placeholder="Apellido Paterno" >
+        <input type="text" id="apellidoMaterno" placeholder="Apellido Materno" >
+        <p class="subtitulo">FORMATO (dd)</p>
+        <input type="text" id="diaNacimiento" placeholder="Día de nacimiento" >
+        <p class="subtitulo">FORMATO (mm)</p>
+        <input type="text" id="mesNacimiento" placeholder="Mes de nacimiento" >
+        <p class="subtitulo">FORMATO (aaaa)</p>
+        <input type="text" id="anoNacimiento" placeholder="Año de nacimiento" >
+        <button id="button">Calcular</button>
+        <p id="texto"></p>
+    </div>
+    <script src="rfc.js"></script>
+</body>
+</html>
